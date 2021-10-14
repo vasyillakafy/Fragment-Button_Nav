@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/home_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:text="Selamat Siang"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/home_title"
+        android:src="@drawable/album" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/imageView14"
+        android:text="Love Yourself :"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="57dp"
+        android:layout_toRightOf="@+id/imageView14"
+        android:text="ANSWER"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/imageView14"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/album_1" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView14"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@+id/imageView15"
+        android:text="Border :"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/imageView15"
+        android:text="CARNIVAL"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/home_title"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/textView10"
+        android:src="@drawable/album_2" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_title"
+        android:textColor="@color/white"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="42dp"
+        android:layout_toRightOf="@+id/imageView14"
+        android:text="FAVO"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/imageView16"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/textView13"
+        android:src="@drawable/album_3" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_title"
+        android:textColor="@color/white"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="125dp"
+        android:layout_toRightOf="@+id/imageView14"
+        android:text="Galau Time"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/home_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView15"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:text="Rilis Terbaru"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="160dp"
+        android:layout_height="144dp"
+        android:layout_below="@+id/home_title2"
+        android:padding="15dp"
+        android:src="@drawable/album_4" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_title2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/imageView18"
+        android:text="ENHYPEN"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView17"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/imageView18"
+        android:textColor="@color/white"
+        android:text="DIMENSION : DILEMMA"
+        android:textSize="20sp" />
+</RelativeLayout>
